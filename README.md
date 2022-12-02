@@ -13,7 +13,22 @@ Web Scraping | Export data into CSV from Stock Market Data.
 
 <h3>Overview</h3>
 
-Formula One is the highest class of international racing for open-wheel single-seater formula racing cars. Every season happened once a year, each race happened over weekends (Friday to Sunday). Each race is conducted in individual circuits. 10 Teams/Constructors will be participated. 2 Drivers will be assigned in a team. Saturday will be a qualifying round for the Sundays match. 50-70 Laps will be there on each race. Pitstop will be available to change tire or damages. Race results included driver standing and constructure standing.
+The stock market has a lot of stocks and at the end of the day, the website will provide https://money.rediff.com/ Gainer and Losers. Based on this we can plan our investment or swing trading ideas. 
+
+The website is not provided with an EXPORT option as CSV or any other formate. 
+
+The project is to demonstrate web scraping using SPARK and DataBricks in Azure. The small code will help us get the CSV data in Data Lake Storage.
 
 <h3>Source Date Files</h3>
-We are referring open-source data from website Ergast Developer API. Data available from 1950 till 2022.
+We are referring open-source data from website https://money.rediff.com/ 
+
+<h3>Filtering</h3>
+We can get the data based on the End of the Day, End of the week, and End of month percentage of changes. 
+Also, we can sort according to NSE or BSE data. 
+
+<h3>Used Tool or Tech</h3>
+<ul>
+  <li>Azure Cloud for Storage/li>
+  <li>DataBricks</li> 
+  <li>Resource Group</li>
+</ul>  
